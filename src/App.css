@@ -11,6 +11,7 @@
   &:hover {
     border-color: var(--accent-border);
   }
+
   &:focus-visible {
     outline: 2px solid var(--accent);
     outline-offset: 2px;
@@ -42,8 +43,7 @@
     z-index: 1;
     top: 34px;
     height: 28px;
-    transform: perspective(2000px) rotateZ(300deg) rotateX(44deg) rotateY(39deg)
-      scale(1.4);
+    transform: perspective(2000px) rotateZ(300deg) rotateX(44deg) rotateY(39deg) scale(1.4);
   }
 
   .vite {
@@ -51,8 +51,7 @@
     top: 107px;
     height: 26px;
     width: auto;
-    transform: perspective(2000px) rotateZ(300deg) rotateX(40deg) rotateY(39deg)
-      scale(0.8);
+    transform: perspective(2000px) rotateZ(300deg) rotateX(40deg) rotateY(39deg) scale(0.8);
   }
 }
 
@@ -73,10 +72,12 @@
 
 #content {
   width: 100%;
-  max-width: 1200px; /* Keeps the portfolio clean on ultra-wide monitors */
+  max-width: 1200px;
+  /* Keeps the portfolio clean on ultra-wide monitors */
   margin: 0 auto;
   box-sizing: border-box;
-  padding: 0 20px; /* Prevents items from hitting the edge of mobile screens */
+  padding: 0 20px;
+  /* Prevents items from hitting the edge of mobile screens */
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -96,6 +97,7 @@
 #spacer {
   height: 88px;
   border-top: 1px solid var(--border);
+
   @media (max-width: 1024px) {
     height: 48px;
   }
@@ -103,14 +105,14 @@
 
 @font-face {
   font-family: 'Cube';
-  src: url('./assets/fonts/Cube.ttf') format('truetype'); 
+  src: url('./assets/fonts/Cube.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Pixel';
-  src: url('./assets/fonts/Minecraft.ttf') format('truetype'); 
+  src: url('./assets/fonts/Minecraft.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -118,6 +120,7 @@
 h1 {
   color: green;
   line-height: 100px;
+
   @media (max-width: 685px) {
     font-size: 25px;
   }
@@ -147,7 +150,8 @@ h1 {
   width: 100%;
   max-width: 900px;
   display: flex;
-  flex-direction: row; /* Default layout */
+  flex-direction: row;
+  /* Default layout */
   border: 1px solid green;
   box-sizing: border-box;
   justify-content: space-between;
@@ -160,11 +164,12 @@ h1 {
 
   /* If the element also has the class .horizontal */
   &.horizontal {
-    flex-direction: row; 
+    flex-direction: row;
   }
 
   @media (max-width: 768px) {
-    flex-direction: column !important; /* Forces row layouts to stack on mobile */
+    flex-direction: column !important;
+    /* Forces row layouts to stack on mobile */
     align-items: center;
   }
 }
@@ -177,6 +182,7 @@ h1 {
   padding: 25px;
   width: 100%;
   box-sizing: border-box;
+
   @media (max-width: 768px) {
     padding: 20px;
   }
@@ -184,8 +190,10 @@ h1 {
 
 .shorts {
   aspect-ratio: 9 / 16;
-  max-width: 340px; /* Prevents vertical shorts from becoming insanely massive on desktop */
-  margin: 0 auto;  /* Centers the short inside its wrapper block */
+  max-width: 340px;
+  /* Prevents vertical shorts from becoming insanely massive on desktop */
+  margin: 0 auto;
+  /* Centers the short inside its wrapper block */
 }
 
 #item-child h1 {
@@ -200,23 +208,23 @@ h1 {
   width: 100%;
   height: auto;
   /* This matches the standard 16:9 widescreen video ratio */
-  aspect-ratio: 16 / 9; 
+  aspect-ratio: 16 / 9;
 }
 
 .soundcloud-embed {
-  font-size: 10px; 
+  font-size: 10px;
   color: #cccccc;
   line-break: anywhere;
   word-break: normal;
   overflow: hidden;
   white-space: nowrap;
-  text-overflow: ellipsis; 
-  font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+  text-overflow: ellipsis;
+  font-family: Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
   font-weight: 100;
 }
 
 .soundcloud-embed-text {
-  color: #cccccc; 
+  color: #cccccc;
   text-decoration: none;
 }
 
