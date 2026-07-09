@@ -82,6 +82,7 @@
   flex-direction: column;
   gap: 25px;
   justify-content: center;
+  background-color: var(--bg);
   place-items: center;
   flex-grow: 1;
   font-size: 30px;
@@ -124,9 +125,17 @@ h1 {
   @media (max-width: 685px) {
     font-size: 25px;
   }
+  @media (max-width: 405px) {
+    font-size: 20px;
+    line-height: 50px;
+  }
 }
 
 #header-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 80%;
   height: 250px;
   border: 1px solid green;
@@ -138,6 +147,7 @@ h1 {
 #flavor-text {
   position: absolute;
   color: green;
+  z-index: -1;
 }
 
 #body {
@@ -153,6 +163,7 @@ h1 {
   flex-direction: row;
   /* Default layout */
   border: 1px solid green;
+  background-color: var(--bg);
   box-sizing: border-box;
   justify-content: space-between;
 
@@ -177,6 +188,7 @@ h1 {
 #item-child {
   display: flex;
   flex-direction: column;
+  background-color: var(--bg);
   justify-content: center;
   font-family: "Geist Pixel", sans-serif;
   padding: 25px;
