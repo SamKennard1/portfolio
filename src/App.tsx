@@ -7,7 +7,7 @@ function App() {
         <section id="center">
           <div id='flavor-text'>　**　°　°　✦✦　　✯　　　　　　✵　　　　★　　　*　✯　　✷　•　　°　 **　　　　　　　**°　　✦　　　*　•　　　·°✸　　　　　°✶　　　　·　 •.*　*　.　　　　•　　　　　　　　　　✷　　　　　　　　　.　　　　　　　 °°•✯　　　　　·•°　　　•　　·　·.　　•　　　　　　•　✧　　　　　　 　✷　°　.°　　•　　　.　　　*　　　*.·　　　　　.　　　　　　　*.　 　　　°　　　　　✸　　　　　　.　　　　　　　　　　✦**　.°　*　　.　* 　·　　　　　　　　　.•✦*　　.　　*　　　　　　　　　　　　　°　　.　· 　　　　°　　　　·.　•*　　　　　　　　　✯　　　　　　　　✶　•·　　　. 　　·　°　　　•　　*·°　　·　　　　　　*　·　　　　　　　　　°✷°✶　 　 　　　　　•　　　　*　°　•　　　✷　　　　•　　.　　　　　　　　　°　•　 　°　　　　　　*　　　　　　　.　•　　　　　·✵·.°　✯　　.　　　　★　 　　　.✯•　　　　　.　　　　*.　°•　·　　　★　　　*　　　　　　·　　 **　✧　*　　　　✵　　　　***•　　·　.　*　　　　·.　　　　✶　·* 　　　　·　•　　　*　　　　　　✧　✦　　°　　　　　　　　.　°　*　　✯* 　　　.　　✵　✷　*　　°　*　　..　*　　　　　　　　..　　　　　　　　 　　*　.　　　.　✷　°　　　　　　　°　•　·　*　　　　★　.☆•　✯　. 　　★*.•.　*　　✯*　　·　　　　　☆　　　　　　°　　　　.　　　°　✶　**　°　°　✦✦　　✯　　　　　　✵　　　　★　　　*　✯　　✷　•　　°　 **　　　　　　　**°　　✦　　　*　•　　　·°✸　　　　　°✶　　　　·　 •.*　*　.　　　　•　　　　　　　　　　✷　　　　　　　　　.　　　　　　　 　　　　　　　•·•••*　　 °°•✯　　　　　·•°　　　•　　·　·.　　•　　　　　　•　✧　　　　　　 　✷　°　.°　　•　　　.　　　*　　　*.·　　　　　.　　　　　　　*.　 　　　°　　　　　✸　　　　　　.　　　　　　　　　　✦**　.°　*　　.　* 　·　　　　　　　　　.•✦*　　.　　*　　　　　　　　　　　　　°　　.　· 　　　　°　　　　·.　•*　　　　　　　　　✯　　　　　　　　✶　•·　　　. 　　·　°</div>
           <div id="header-box">
-            <h1>sam kennard</h1>
+            <h1>sam<br/>kennard</h1>
           </div>
         </section>
         <section id="content">
@@ -104,7 +104,7 @@ function App() {
               <iframe width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay; encrypted-media" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%3Atracks%3A1867058202%3Fsecret_token%3Ds-6Fo1KKXnTuJ&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div className="soundcloud-embed"><a href="https://soundcloud.com/user-611114974" title="Eskay" target="_blank" className="soundcloud-embed-text">Eskay</a> · <a href="https://soundcloud.com/user-611114974/a-little-something/s-6Fo1KKXnTuJ" title="a little something" target="_blank" className="soundcloud-embed-text">a little something</a></div>
             </div>
             <div id="item-child">
-              <p>back in 2016 when i was persuing music journalism on the side, i interviewed mercury prize nominated, grammy award nominated and brit award nominated band glass animals.</p>
+              <p>back in 2016 when i was pursuing music journalism on the side, i interviewed mercury prize nominated, grammy award nominated and brit award nominated band glass animals.</p>
             </div>
           </div>
           Stand up comedy
@@ -114,7 +114,7 @@ function App() {
               <iframe className="responsive-iframe" width="560" height="315" src="https://www.youtube.com/embed/91ynV_xsvfM?si=MDJL2ZKscjn4HpOd" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             </div>
             <div id="item-child">
-              <p>for a while i persued stand up comedy, until eventually getting my current role at Google, which prevented me from having the time to persue it further.</p>
+              <p>for a while i pursued stand up comedy, until eventually getting my current role at Google, which prevented me from having the time to persue it further.</p>
             </div>
           </div>
         </section>
