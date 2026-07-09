@@ -17,7 +17,7 @@ function App() {
               i am a multidisciplined creative. despite working primarily as a software engineer at google, i have spent most of my life creating in some regard. below are some highlights of the things i have created. from directing, shooting, editing, colour grading short films to stand up comedy, to music and back to programming, i have sampled almost every creative field out there. <br /><br /><br /> i am also a keen photographer, writer and 3D artist, as well as teaching myself electrical engineering skills in order to set a world record for building the world's smallest GameBoy.
             </div>
           </div>
-          Directing
+          <div className="subtitle">directing</div>
           <div id="item" className="vertical">
             <div id="item-child">
               <h1>james longcake - painted nails</h1>
@@ -45,7 +45,7 @@ function App() {
               <p>i directed, shot and edited this multi-award winning short film, which picked up nominations for NaSTA awards, and won awards at both Brighton Rocks Film Festival and Cinecity 2019.</p>
             </div>
           </div>
-          Creative programming
+          <div className="subtitle">creative programming</div>
           <div id="item">
             <div id="item-child">
               <iframe className="shorts" width="315" height="560" src="https://www.youtube.com/embed/SYJvfoVP1Kk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
@@ -82,7 +82,7 @@ function App() {
               <iframe className="shorts" width="315" height="560" src="https://www.youtube.com/embed/MbKHxNF2HIQ?si=n58fqzVnceyHmn8A" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             </div>
           </div>
-          Music
+          <div className="subtitle">music</div>
           <div id="item" className="vertical">
             <div id="item-child">
               <h1>khama road club - watercolour barbeque</h1>
@@ -107,14 +107,14 @@ function App() {
               <p>back in 2016 when i was pursuing music journalism on the side, i interviewed mercury prize nominated, grammy award nominated and brit award nominated band glass animals.</p>
             </div>
           </div>
-          Stand up comedy
+          <div className="subtitle">stand up comedy</div>
           <div id="item" className="vertical">
             <div id="item-child">
               <h1>the wikihow writer</h1>
               <iframe className="responsive-iframe" width="560" height="315" src="https://www.youtube.com/embed/91ynV_xsvfM?si=MDJL2ZKscjn4HpOd" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             </div>
             <div id="item-child">
-              <p>for a while i pursued stand up comedy, until eventually getting my current role at Google, which prevented me from having the time to persue it further.</p>
+              <p>for a while i pursued stand up comedy, until eventually getting my current role at Google, which prevented me from having the time to pursue it further.</p>
             </div>
           </div>
         </section>

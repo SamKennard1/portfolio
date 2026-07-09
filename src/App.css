@@ -86,13 +86,18 @@
   place-items: center;
   flex-grow: 1;
   font-size: 30px;
-  font-family: 'Pixel', sans-serif;
+  font-family: "Jersey 15", sans-serif;
   align-items: center;
 
   @media (max-width: 1024px) {
     padding: 32px 20px 24px;
     gap: 18px;
   }
+}
+
+.subtitle {
+  font-family: "Jersey 15", sans-serif;
+  font-size: 50px;
 }
 
 #spacer {
@@ -107,13 +112,6 @@
 @font-face {
   font-family: 'Cube';
   src: url('./assets/fonts/Cube.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Pixel';
-  src: url('./assets/fonts/Minecraft.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -203,7 +201,7 @@ h1 {
 }
 
 #item-child h1 {
-  font-family: 'Pixel', sans-serif;
+  font-family: "Jersey 15", sans-serif;
   font-size: 40px;
   margin: 0px;
   line-height: 40px;
@@ -235,5 +233,5 @@ h1 {
 }
 
 .title {
-  font-size: 40px;
+  font-size: 60px;
 }
