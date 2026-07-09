@@ -13,7 +13,7 @@ function App() {
         <section id="content">
           <div className="title">creative engineer</div>
           <div id="item">
-            <div id="item-child">about me <br /><br />
+            <div id="item-child">about me <br /><br /><br /><br />
               i am a multidisciplined creative. despite working primarily as a software engineer at google, i have spent most of my life creating in some regard. below are some highlights of the things i have created. from directing, shooting, editing, colour grading short films to stand up comedy, to music and back to programming, i have sampled almost every creative field out there. <br /><br /><br /> i am also a keen photographer, writer and 3D artist, as well as teaching myself electrical engineering skills in order to set a world record for building the world's smallest GameBoy.
             </div>
           </div>
